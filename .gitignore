@@ -4,7 +4,7 @@
 __pycache__
 
 # Directories
-.compiler
+.debug
 
 # Files
 settings.yaml
