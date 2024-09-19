@@ -1,14 +1,17 @@
+# Built-in modules
 from pathlib import Path
-from yaml import safe_load
-from subprocess import run, DEVNULL
-from time import sleep
 from re import sub
+from subprocess import run, DEVNULL
 from sys import exit
+from time import sleep
+
+# Third-party modules
+from yaml import safe_load
 
 
 # Defining the variables
 settings_path = Path('settings.yaml')
-scrcpy_dir = Path('dependencies/scrcpy-win64-v2.4')
+scrcpy_dir = Path('dependencies/scrcpy-win64-v2.7')
 
 # Checks if the settings.yaml file does not exist
 if not settings_path.exists():
