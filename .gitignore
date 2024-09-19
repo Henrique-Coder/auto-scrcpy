@@ -5,6 +5,7 @@ __pycache__
 
 # Directories
 .debug
+dependencies/scrcpy-win64-v2.7
 
 # Files
 # ...
